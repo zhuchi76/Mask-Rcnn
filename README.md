@@ -31,6 +31,9 @@ source dip/bin/activate
 ```bash
 sudo apt install -y nvidia-cuda-toolkit
 ```
+### Install Detectron2
+
+Then, run every cell in install.ipynb to install detectron2.
 
 ### Configure Detectron2
 
@@ -59,7 +62,9 @@ Mask-Rcnn/
 source dip/bin/activate
 ```
 
-Open and run the maskrcnn.ipynb notebook to execute the Mask R-CNN model.
+### RUN the project
+
+Open and run every cell in maskrcnn.ipynb (still working) to execute the Mask R-CNN model.
 
 ### Deactivating the Environment
 After you're done, you can deactivate the virtual environment:
