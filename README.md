@@ -31,6 +31,9 @@ source dip/bin/activate
 ```bash
 sudo apt install -y nvidia-cuda-toolkit
 ```
+
+If you are using ubuntu, open "Software & Updates" and click additional driver, install nvidia cuda driver. 
+
 ### Install Detectron2
 
 Then, run every cell in install.ipynb to install detectron2.
